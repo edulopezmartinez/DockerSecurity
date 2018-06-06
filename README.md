@@ -1,5 +1,10 @@
 # dockerSecGraduates2018
 
+Requisitos:
+
+docker
+docker-compose
+
 ## Ej1: Dockerhub (5 min)
 
 Crearse una cuenta en dockerhub: https://hub.docker.com/
@@ -63,6 +68,15 @@ equivalente a la imagen base (OJO con ID!). (https://anchore.io)
 ```
 
 ## Ej3: Buenas prácticas con Docker (20 min)
+
+Preparación:
+
+
+```
+cd Ej3
+sudo chown root:root -R top_secret
+sudo chmod 400 -R top_secret
+```
 
 3.1 Docker bench for security
 
