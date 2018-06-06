@@ -97,9 +97,9 @@ docker run -it --net host --pid host --userns host --cap-add audit_control     -
 3.2 ¿Qué permisos tiene el directorio top_secret y password dentro del contenedor?
 ```
 docker exec -it ej3_app_1 ls -la top_secret
-drw------- 2 root root 4096 Jun  6 14:35 .
+dr-------- 2 root root 4096 Jun  6 14:35 .
 drwxr-xr-x 1 root root 4096 Jun  6 14:43 ..
--rw------- 1 root root    9 Jun  6 14:41 password.html
+-r-------- 1 root root    9 Jun  6 14:41 password.html
 
 ```
 
