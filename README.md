@@ -175,6 +175,6 @@ docker run --rm -it IMAGE bash
 
 
 ```
-  $> docker push USUARIO/yo:ej5
+  $> docker push USUARIO/yo:ej6
 
 ```
