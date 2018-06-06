@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+  nginx:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    # Modifica el nombre de paquito por tu cuenta de dockerhub
+    image: paquito/yo:ej3
+    ports:
+      - "0.0.0.0:80:8000"
+    volumes:
+      - ./html/index.html:/usr/share/nginx/html/index.html
+      - ./top_secret/password:/usr/share/nginx/html/password
