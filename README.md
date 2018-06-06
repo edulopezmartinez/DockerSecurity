@@ -122,6 +122,11 @@ USER appuser
 ```
 
 ```
+  $> docker-compose build
+
+```
+
+```
   $> docker-compose up
 
 ```
