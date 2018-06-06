@@ -2,7 +2,6 @@
 
 FROM fuentecilla86/ubuntu
 
-RUN apt-get update
-RUN apt-get install -y nginx
+WORKDIR /usr/share/app/html
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["python3","-m","http.server","8000"]

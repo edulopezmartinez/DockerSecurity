@@ -1,7 +1,7 @@
 version: "2"
 
 services:
-  nginx:
+  app:
     build:
       context: ./
       dockerfile: Dockerfile
@@ -10,5 +10,5 @@ services:
     ports:
       - "0.0.0.0:80:8000"
     volumes:
-      - ./html/index.html:/usr/share/nginx/html/index.html
-      - ./top_secret/password:/usr/share/nginx/html/password
+      - ./html/index.html:/usr/share/app/html/index.html
+      - ./top_secret:/usr/share/app/html/top_secret
