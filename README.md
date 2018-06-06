@@ -109,7 +109,7 @@ drwxr-xr-x 1 root root 4096 Jun  6 14:43 ..
 http://localhost/top_secret
 ```
 
-3.3 Crear usuario en el Dockerfile que arranque
+3.3 Crear usuario en el Dockerfile
 ```
   $> docker-compose down
 
